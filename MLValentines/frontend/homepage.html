@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Pages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+        <div class="logo">Username</div>
+        <nav class ="nav-links">
+            <a href="homepage.html">Home</a>
+            <a href="concentpage.html">Concent</a>
+            <a href="#">Page</a>
+        </nav>
+    </header>
+
+    <div class="step-tracker">
+        <div class="step active">Step 1</div>
+        <span class="arrow"> > </span>
+        <div class="step">Step 2</div>
+        <span class="arrow"> > </span>
+        <div class="step">Step 3</div>
+        <span class="arrow"> > </span>
+        <div class="step">Step 4</div>
+    </div>
+
+    <main class="form-card">
+        <form id="usage-form">
+            
+            <div class="question-group">
+                <label class="quest">How many hours do you spend actively using your phone?</label>
+                <div class="options">
+                    <label><input type="radio" name="hours"> < 2</label>
+                    <label><input type="radio" name="hours"> 2-4</label>
+                    <label><input type="radio" name="hours"> 6-8</label>
+                    <label><input type="radio" name="hours"> > 8</label>
+                </div>
+            </div>
+            <div class="question-group">
+                <label class="quest">Is your phone usage higher during:</label>
+                <div class="options">
+                    <label><input type="radio" name="weeks"> Weekdays</label>
+                    <label><input type="radio" name="weeks"> Weekends</label>
+                    <label><input type="radio" name="weeks"> About the same</label>
+                </div>
+            <div class="question-group">
+                <label class="quest">What's the current status of your phone status after 2 weeks?</label>
+                <div class="options">
+                    <label><input type="radio" name="status">Increased</label>
+                    <label><input type="radio" name="status">Decrease</label>
+                    <label><input type="radio" name="status">About the same</label>
+                </div>
+            </div>
+            <div class="question-group">
+                <label class="quest">What is mostly your main type of usage(pick one)?</label>
+                <div class="options">
+                    <label><input type="radio" name="usage">social</label>
+                    <label><input type="radio" name="usage">entertainment</label>
+                    <label><input type="radio" name="usage">Gaming</label>
+                    <label><input type="radio" name="usage">School / Productivity</label>
+                    <label><input type="radio" name="usage">Mixed</label>
+                </div>
+            </div>
+            <button type="submit" class="confirm-btn">Confirm</button>
+        </form>
+    </main>
+</div>
+    <script src="logic.js"></script>
+</body>
+</html>
